@@ -10,9 +10,9 @@ body {
 }
 
 main {
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
@@ -32,6 +32,17 @@ a {
 
 .hide {
     display: none;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+  font-size: 0.8em;
+  padding-bottom: 2px;
 }
 
 .word {
