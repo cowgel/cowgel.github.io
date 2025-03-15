@@ -35,7 +35,7 @@ a {
     display: none;
 }
 
-.footer {
+footer {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -69,13 +69,3 @@ ol.defs {
 ol.defs li {
   margin-bottom: 0.8em;
 }
-/*
-@media only screen and (max-width: 800px) {
-  main {
-    background-color: lightblue;
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
-*/
