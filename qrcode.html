@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; child-src 'none'; script-src 'strict-dynamic' 'nonce-R4nd0m'; object-src 'none'; base-uri 'none';">
+    -->
+    <link rel="icon" href="data:,">
+    <title>QR Codes Generater</title>
+    <meta name="description" content="">
+    <!--<link rel="stylesheet" href="./css/site.css">-->
+    <link rel="stylesheet" href="./css/display.css">
+    <script nonce="R4nd0m" src="./js/qrcode.lib.js"></script>
+    <script nonce="R4nd0m" type="module" src="./js/qrcode.js"></script>
+</head>
+<body>
+    <main id="qrcode">
+        <div id="form">
+            <textarea id="more" rows="10" cols="72" title="more">
+["https://catawbacountycapc.org/capc/","","Children’s Advocacy and Protection Center of Catawba County"]
+["https://www.catawbascience.org/","","Catawba Science Center"]
+["https://www.catawbacountync.gov","","Catawba County"]
+["https://www.redtorus.com","","Red Torus"]
+            </textarea>
+            <br>
+            <button id="btn-data-upload" type="button">Upload</button>&nbsp;<button id="update" type="button">Update</button>
+            <br><br>
+            <div class="message no-print">In Edge when printing, expand More Settings.Scroll down and change Margins to Custom. The example is top: 6, bottom:0, left:0.1, right: 0.1. You will probably need to test print a couple pages and adjust the margins and maybe the scale. And turn off headers and footers.</div>
+        </div>
+		<div id="output" class="show-image"></div>
+    </main>
+</body>
+</html>
