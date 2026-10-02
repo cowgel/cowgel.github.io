@@ -23,6 +23,13 @@ a {
     display: none;
 }
 
+.instructions {
+    font-family: monospace;
+    font-size: 0.8em;
+    color: blue;
+    white-space: pre;
+}
+
 @media print {
   form, #form, .no-print{
     display: none !important;
